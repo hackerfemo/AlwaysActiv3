@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="Css Doc.css"/>
+  <meta charset="UTF-8">
+  <title>About Page</title>
+</head>
+<body id="AboutPage">
+   <h1 id = 'Title'>About</h1>
+   <img id = 'Logo' src ="5286b3dd-b738-4972-9014-747edeac3a3e.png" height='300' width='300'></img>
+  <nav>
+    <ul>
+      <li><a href="html document.html">Home</a></li>
+      <li><a href="SportPage.html">Sports</a></li>
+      <li><a href="GamesPage.html">Games</a></li>
+      <li id = 'currentPage'>About</li>
+    </ul>
+  </nav>
+</body>
+</html>
