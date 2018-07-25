@@ -1,0 +1,37 @@
+#Title{
+  font-size:50px;
+  font-family:cookie dough;
+  text-align:center;
+  color:Green;
+}
+nav{
+  float:right
+}
+li {
+  display:inline-block; margin:150px 90px; font-size: 30px; color:black
+}
+#currentPage{
+  font-weight: 900;
+  background: grey;
+}
+#GameTitle{
+  font-size:40px;
+  font-family:cookie dough;
+  text-align:center;
+  color:Green;
+}
+#AboutTitle{
+  margin-top:100px;
+  margin-bottom:0;
+  font-size:40px;
+  font-family:cookie dough;
+  text-align:center;
+  color:Green;
+}
+#AboutUsPP{
+  text-align:right;
+  margin-right:650px;
+}
+#UsPic{
+  margin-left:75%;
+}
