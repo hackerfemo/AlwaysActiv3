@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Always Activ3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  .container {
+      position: relative;
+      width: 100%;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 710;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container:hover .image {
+    opacity: 0.3;
+  }
+
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  .text {
+    background-color: green;
+    color: white;
+    font-size: 100px;
+    font-family: cookie dough;
+    padding: 32px 64px;
+  }
+  </style>
+</head>
+<body>
+   <h1 id = 'Title'>Always Activ3</h1>
+   <img id = 'Logo' src = 5286b3dd-b738-4972-9014-747edeac3a3e.png height='300' width='300'></img>
+  <nav>
+    <ul>
+      <li id = 'currentPage'>Home</li>
+      <li>Sport</li>
+      <li>Games</li>
+      <li>About</li>
+    </ul>
+  </nav>
+<div class="container">
+  <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.laaloosh.com%2Fwp-content%2Fuploads%2F2015%2F09%2FGreek-Salad-2.jpg&f=1" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">Always Activ3</div>
+  </div>
+</div>
+  <div id = 'GameTag'>
+    <div id = 'GameTitle'>
+      <h2>Sports Games</h2>
+    </div>
+    <div id = 'GamesPic'>
+      <div class="container">
+  <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fgamerlimit.com%2Fwp-content%2Fuploads%2F2016%2F04%2Foriginal.jpg&f=1" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text"><div id = 'GameLink'>   
+      <a href="http://scratch.mit.edu/projects/embed/237241329/?autostart=false">Check Out Our Games Here</a>
+    </div></div>
+  </div>
+  </div>
+    </div>
+  </div>
+  <div id = 'AboutTag'>
+    <div id = 'AboutTitle'>
+      <h2>About</h2>
+    </div>
+    <div id = 'AboutUsPP'>   
+      <p>Coming soon!</p>
+    <div id = 'UsPic'>
+      <img id = 'Logo' src = "5286b3dd-b738-4972-9014-747edeac3a3e.png" height='300' width='300'></img>
+    </div>
+  </div>
+</body>
+</html>
