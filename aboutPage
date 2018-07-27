@@ -14,7 +14,9 @@
       <li><a href="SportPage.html">Sports</a></li>
       <li><a href="GamesPage.html">Games</a></li>
       <li id = 'currentPage'>About</li>
-    </ul>
   </nav>
+    </ul>
+     <p>Hi,We are Always Active. Our webiste is about being active and fit in as many ways as posible. Our website will provide you with fun games and infomation that can help you in your everyday life. We have lots of fun games made on sctatch which has all been made by our team.Always Active also has a list of sports. You can check out this page if you want to find where to play it and what you need to play. We hope you have fun and learn about being the best you.</p>
+     <img src="fruit.jpg"></img>
 </body>
 </html>
