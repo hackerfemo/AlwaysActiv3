@@ -10,7 +10,7 @@
    <img id = 'Logo' src = "5286b3dd-b738-4972-9014-747edeac3a3e.png" height='300' width='300'></img>
   <nav>
     <ul>
-      <li><a href="html document.html">Home</a></li>
+      <li><a href="htmldocument.html">Home</a></li>
       <li><a href="SportPage.html">Sport</a></li>
       <li id = 'currentPage'>Games</li>
       <li><a href="aboutPage.html">About</a></li>
